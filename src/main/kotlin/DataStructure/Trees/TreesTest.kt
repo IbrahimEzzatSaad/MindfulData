@@ -1,5 +1,6 @@
 package DataStructure.Trees
 
+import DataStructure.Trees.BST.BinarySearchTree
 import DataStructure.Trees.BasicTree.TreeNode
 import DataStructure.Trees.BinaryTrees.BinaryNode
 
@@ -10,7 +11,17 @@ import DataStructure.Trees.BinaryTrees.BinaryNode
    They work on other types of trees as well, although their implementation is slightly different based on how the tree is structured.
  * Trees are a fundamental data structure with different implementations.
    Some of these will be part of the next chapters.
- */
+
+
+
+ * -------------------------Key Points------------------------- *
+ * The binary tree is the foundation to some of the most important tree structures.
+    The binary search tree and AVL tree are binary trees that impose restrictions on
+    the insertion/deletion behaviors.
+
+ * In-order, pre-order and post-order traversals aren’t just important only for the
+    binary tree; if you’re processing data in any tree, you’ll interface with these
+    traversals regularly.*/
 fun main(){
 
     /* Hierarchical structures are natural candidates for tree structures. That being the
@@ -92,6 +103,30 @@ fun main(){
     println(tree)
     val array = tree.serialize()
     println(tree.deserializeOptimized(array))*/
+
+
+
+//*-*-*-*-*-*-*-*-*-*-*-*-*-BinarySearchTree*-*-*-*-*-*-*-*-*-*-*-*-*
+    val exampleTree = BinarySearchTree<Int>().apply {
+        insert(3)
+        insert(1)
+        insert(4)
+        insert(0)
+        insert(2)
+        insert(5)
+    }
+
+        println(exampleTree)
+
+
+
+
+    //Removing example
+    println("Tree before removal:")
+    println(exampleTree)
+    exampleTree.remove(3)
+    println("Tree after removing root:")
+    println(exampleTree)
 
 
 }

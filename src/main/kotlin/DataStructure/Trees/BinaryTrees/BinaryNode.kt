@@ -4,14 +4,9 @@ import kotlin.math.max
 
 typealias Visitor<T> = (T) -> Unit
 
-class BinaryNode<T: Any>(val value: T) {
+class BinaryNode<T: Any>(var value: T) {
     var leftChild: BinaryNode<T>? = null
     var rightChild: BinaryNode<T>? = null
-
-
-
-
-
 
 
 
@@ -197,5 +192,8 @@ class BinaryNode<T: Any>(val value: T) {
     fun deserializeOptimized(list: MutableList<T?>): BinaryNode<T>? {
         return deserialize(list.asReversed())
     }
+
+
+
 
 }
