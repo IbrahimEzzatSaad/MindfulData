@@ -1,8 +1,11 @@
 package DataStructure.Trees
 
+import DataStructure.Trees.AVL.AVLTree
 import DataStructure.Trees.BST.BinarySearchTree
 import DataStructure.Trees.BasicTree.TreeNode
 import DataStructure.Trees.BinaryTrees.BinaryNode
+import kotlin.math.pow
+
 
 /*---------------------Key Points---------------------
  * Trees share some similarities to linked lists. However, a tree node can link to infinitely many nodes,
@@ -66,7 +69,7 @@ fun main(){
 
 
     /* BinaryTree Example
-    https://assets.alexandria.raywenderlich.com/books/dsk/images/71207faaf04ff8483b333ac6b7d4f7a22eb6888b12f82ad03ecd8274902d155a/original.png*/
+    https://assets.alexandria.raywenderlich.com/books/dsk/images/71207faaf04ff8483b333ac6b7d4f7a22eb6888b12f82ad03ecd8274902d155a/original.png
         val zero = BinaryNode(0)
         val one = BinaryNode(1)
         val five = BinaryNode(5)
@@ -80,7 +83,7 @@ fun main(){
         seven.rightChild = nine
         nine.leftChild = eight
 
-        val tree = seven
+        val tree = seven*/
 
     /*Building a diagram
         println(tree)*/
@@ -107,6 +110,7 @@ fun main(){
 
 
 //*-*-*-*-*-*-*-*-*-*-*-*-*-BinarySearchTree*-*-*-*-*-*-*-*-*-*-*-*-*
+    /*
     val exampleTree = BinarySearchTree<Int>().apply {
         insert(3)
         insert(1)
@@ -116,18 +120,52 @@ fun main(){
         insert(5)
     }
 
-        println(exampleTree)
+        println(exampleTree)*/
 
 
 
 
-    //Removing example
+    /*Removing example
     println("Tree before removal:")
     println(exampleTree)
     exampleTree.remove(3)
     println("Tree after removing root:")
-    println(exampleTree)
+    println(exampleTree)*/
 
+
+
+
+//*-*-*-*-*-*-*-*-*-*-*-*-*-AVLTree*-*-*-*-*-*-*-*-*-*-*-*-*
+
+    /*Take a moment to appreciate the uniform spread of the nodes.
+    If the rotations weren’t applied, this would have become a long, unbalanced chain of right children.
+    val tree = AVLTree<Int>()
+    (0..14).forEach {
+        tree.insert(it)
+    }
+    print(tree)*/
+
+
+    /*Remove and insert operations example
+    The self-balancing property guarantees that the insert and remove operations
+    function at optimal performance with an O(log n) time complexity.
+
+    val tree = AVLTree<Int>()
+    tree.insert(15)
+    tree.insert(10)
+    tree.insert(16)
+    tree.insert(18)
+    print(tree)
+    tree.remove(10)
+    print(tree)*/
+
+
+    val tree = AVLTree<Int>()
+    (0..14).forEach {
+        tree.insert(it)
+    }
+    println(tree)
+    tree.root?.traverseInOrder { println(it) }
 
 }
 
@@ -175,5 +213,26 @@ fun makeBeverageTree(): TreeNode<String> {
 }
 
 
+
+/*---------Challenge 1: Count the leaves-----------
+    * A perfectly balanced tree is a tree where all of the leaves are at the same level, and
+    that level is completely filled
+    * https://assets.alexandria.raywenderlich.com/books/dsk/images/2bb0acc95ef5307fa51e818f06944d3d862aa96e13a807fffbbcb48fad57b038/original.JPG
+    * Recall that a tree with only a root node has a height of zero.
+    * Thus, the tree in the example above has a height of two.
+    * You can extrapolate that a tree with a height of three would have eight leaf nodes.
+    * Since each node has two children, the number of leaf nodes doubles as the height increases.
+    * Therefore, you can calculate the number of leaf nodes using a simple equation:*/
+fun leafNodes(height: Int): Int {
+    return 2.0.pow(height).toInt()
+}
+
+/*---------Challenge 2: Count the nodes----------
+* How many nodes are there in a perfectly balanced tree of height 3? What about a perfectly balanced tree of height h?
+* If you examine the results of a sequence of height inputs, you’ll realize that the total
+* O(1)*/
+fun nodes(height: Int): Int {
+    return 2.0.pow(height + 1).toInt() - 1
+}
 
 
