@@ -4,6 +4,7 @@ import DataStructure.Trees.AVL.AVLTree
 import DataStructure.Trees.BST.BinarySearchTree
 import DataStructure.Trees.BasicTree.TreeNode
 import DataStructure.Trees.BinaryTrees.BinaryNode
+import DataStructure.Trees.Tries.*
 import kotlin.math.pow
 
 
@@ -160,12 +161,74 @@ fun main(){
     print(tree)*/
 
 
+    /*
     val tree = AVLTree<Int>()
     (0..14).forEach {
         tree.insert(it)
     }
     println(tree)
-    tree.root?.traverseInOrder { println(it) }
+    tree.root?.traverseInOrder { println(it) }*/
+
+
+
+
+
+//*-*-*-*-*-*-*-*-*-*-*-*-*-Tries*-*-*-*-*-*-*-*-*-*-*-*-*
+
+    /*String is not a collection type in Kotlin, but you can easily convert it to a list of characters using the toList extension.
+    val trie = Trie<Char>()
+    trie.insert("cute".toList())
+    if (trie.contains("cute".toList())) {
+        println("cute is in the trie")
+    }*/
+
+    /*You can make storing Strings in a trie more convenient by adding some extensions.
+    val trie = Trie<Char>()
+    trie.insert("cute")
+    if (trie.contains("cute")) {
+        println("cute is in the trie")
+    }*/
+
+
+    /*Example of removing after inserting
+        val trie = Trie<Char>()
+
+        trie.insert("cut")
+        trie.insert("cute")
+
+        println("\n*** Before removing ***")
+        assert(trie.contains("cut"))
+        println("\"cut\" is in the trie")
+        assert(trie.contains("cute"))
+        println("\"cute\" is in the trie")
+
+        println("\n*** After removing cut ***")
+        trie.remove("cut")
+        assert(!trie.contains("cut"))
+        assert(trie.contains("cute"))
+        println("\"cute\" is still in the trie")*/
+
+
+
+    //Prefix matching Example
+    val trie = Trie<Char>().apply {
+        insert("car")
+        insert("card")
+        insert("care")
+        insert("cared")
+        insert("cars")
+        insert("carbs")
+        insert("carapace")
+        insert("cargo")
+    }
+    println("\nCollections starting with \"car\"")
+    val prefixedWithCar = trie.collections("car")
+    println(prefixedWithCar)
+    println("\nCollections starting with \"care\"")
+    val prefixedWithCare = trie.collections("care")
+    println(prefixedWithCare)
+
+
 
 }
 
