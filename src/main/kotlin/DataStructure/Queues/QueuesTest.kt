@@ -5,6 +5,7 @@ import DataStructure.Queues.DoubleStack.StackImpl
 import DataStructure.Queues.DoubleStack.StackQueue
 import DataStructure.Queues.DoublyLinkedList.LinkedListQueue
 import DataStructure.Queues.Ringbuffer.RingBufferQueue
+import example
 
 /*We’re all familiar with waiting in line. Whether you’re in line to buy tickets to your favorite movie or waiting for a printer to print a file,
   these real-life scenarios mimic the queue data structure.
@@ -23,17 +24,18 @@ import DataStructure.Queues.Ringbuffer.RingBufferQueue
 fun main(){
 
 
-    /*----First queue try----
-    * This code puts Ray, Brian and Eric in the queue. It then removes Ray and peeks at Brian, but it doesn’t remove him.
-    val queue = ArrayListQueue<String>().apply {
-        enqueue("Ray")
-        enqueue("Brian")
-        enqueue("Eric")
+    "First queue try" example {
+    /*This code puts Ray, Brian and Eric in the queue. It then removes Ray and peeks at Brian, but it doesn’t remove him.*/
+        val queue = ArrayListQueue<String>().apply {
+            enqueue("Ray")
+            enqueue("Brian")
+            enqueue("Eric")
+        }
+        println(queue)
+        queue.dequeue()
+        println(queue)
+        println("Next up: ${queue.peek()}")
     }
-    println(queue)
-    queue.dequeue()
-    println(queue)
-    println("Next up: ${queue.peek()}")*/
 
 
 
@@ -41,7 +43,7 @@ fun main(){
 
 
 
-    /*----LinkedListQueue----
+    "LinkedListQueue" example{
         val queue = LinkedListQueue<String>().apply {
             enqueue("Ray")
             enqueue("Brian")
@@ -58,12 +60,13 @@ fun main(){
 
         queue.dequeue()
         println(queue)
-        println("Next up: ${queue.peek()}")*/
+        println("Next up: ${queue.peek()}")
+    }
 
 
 
 
-    /*----Queue with Ring Buffer----
+    "Queue with Ring Buffer" example{
         val queue = RingBufferQueue<String>(10).apply {
             enqueue("Ray")
             enqueue("Brian")
@@ -72,7 +75,8 @@ fun main(){
         println(queue)
         queue.dequeue()
         println(queue)
-        println("Next up: ${queue.peek()}")*/
+        println("Next up: ${queue.peek()}")
+    }
 
 
 
@@ -80,28 +84,28 @@ fun main(){
 
 
 
-    /*----Queue with Double Stack----
-    * Similar to the previous examples, this code enqueues Ray, Brian and Eric, dequeues Ray and then peeks at Brian.
-    * Note how Eric and Brian ended up in the left stack and in reverse order as the result of the dequeue operation.
-        val queue = StackQueue<String>().apply {
-            enqueue("Ray")
-            enqueue("Brian")
-            enqueue("Eric")
-        }
-        println(queue)
-        queue.dequeue()
-        println(queue)
-    println("Next up: ${queue.peek()}")*/
+    "Queue with Double Stack" example{
+    /* Similar to the previous examples, this code enqueues Ray, Brian and Eric, dequeues Ray and then peeks at Brian.
+    * Note how Eric and Brian ended up in the left stack and in reverse order as the result of the dequeue operation.*/
+            val queue = StackQueue<String>().apply {
+                enqueue("Ray")
+                enqueue("Brian")
+                enqueue("Eric")
+            }
+            println(queue)
+            queue.dequeue()
+            println(queue)
+        println("Next up: ${queue.peek()}")
+    }
 
 
 
 
-
-    /*------------Challenge 3 - Monopoly
-    The time complexity depends on the queue implementation you select. For the
+    "Challenge 3 - Monopoly" example{
+    /*The time complexity depends on the queue implementation you select. For the
     array-based queue, it’s overall _O(n) time complexity. dequeue takes _O(n) time
     because it has to shift the elements to the left every time you remove the first
-    element.
+    element.*/
         val queue = ArrayListQueue<String>().apply {
             enqueue("Vincent")
             enqueue("Remel")
@@ -117,20 +121,23 @@ fun main(){
         queue.nextPlayer()
         println(queue)
         queue.nextPlayer()
-        println(queue)*/
-
-
-
-    /*------------Challenge 4 - Reverse data------------
-    val queue = ArrayListQueue<String>().apply {
-        enqueue("1")
-        enqueue("21")
-        enqueue("18")
-        enqueue("42")
+        println(queue)
     }
-    println("before: $queue")
-    queue.reverse()
-    println("after: $queue")*/
+
+
+
+
+    "Challenge 4 - Reverse data" example{
+        val queue = ArrayListQueue<String>().apply {
+            enqueue("1")
+            enqueue("21")
+            enqueue("18")
+            enqueue("42")
+        }
+        println("before: $queue")
+        queue.reverse()
+        println("after: $queue")
+    }
 
 
 }

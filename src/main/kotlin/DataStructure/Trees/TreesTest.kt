@@ -5,6 +5,7 @@ import DataStructure.Trees.BST.BinarySearchTree
 import DataStructure.Trees.BasicTree.TreeNode
 import DataStructure.Trees.BinaryTrees.BinaryNode
 import DataStructure.Trees.Tries.*
+import example
 import kotlin.math.pow
 
 
@@ -40,13 +41,15 @@ fun main(){
     }*/
 
 
-    /*--------Recursive depth-first traversal test--------
-    val tree = makeBeverageTree()
-    tree.forEachDepthFirst { println(it.value) }*/
+    /*Recursive depth-first traversal test
+     val tree = makeBeverageTree()
+     tree.forEachDepthFirst { println(it.value) }
+    }
+    */
 
 
 
-    /*--------forEachLevelOrder Test--------
+    /*forEachLevelOrder example
     val tree = makeBeverageTree()
     tree.forEachLevelOrder { println(it.value) }*/
 
@@ -102,7 +105,7 @@ fun main(){
 
 
     /*Serialization Example
-    The time complexity for this solution is now O(n) because you created a new reversed list and
+    The time complexity for this solution is now O(n) because you created a new DataStructure.LinkedList.reversed list and
     chose a recursive solution.
     println(tree)
     val array = tree.serialize()

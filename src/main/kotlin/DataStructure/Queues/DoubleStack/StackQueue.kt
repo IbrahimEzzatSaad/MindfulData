@@ -46,7 +46,7 @@ class StackQueue<T : Any> : Queue<T> {
     private fun transferElements() {
         /*With this code, you pop elements from the right stack and push them into the left stack.
           You already know from the previous chapter that stacks work in a LIFO way (last in, first out).
-          You’ll get them in reversed order without any additional work.*/
+          You’ll get them in DataStructure.LinkedList.reversed order without any additional work.*/
         var nextElement = rightStack.pop()
         while (nextElement != null) {
             leftStack.push(nextElement)
@@ -95,7 +95,7 @@ class StackQueue<T : Any> : Queue<T> {
      * Remember, you only transfer the elements in the right stack when the left stack is empty. This makes dequeue() an amortized O(1) operation, just like peek().*/
     override fun dequeue(): T? {
         if (leftStack.isEmpty) { // 1-Check to see if the left stack is empty.
-            transferElements() // 2-If the left stack is empty, you need to transfer the elements from the right stack in reversed order.
+            transferElements() // 2-If the left stack is empty, you need to transfer the elements from the right stack in DataStructure.LinkedList.reversed order.
         }
         return leftStack.pop() // 3-Remove the top element from the left stack.
     }

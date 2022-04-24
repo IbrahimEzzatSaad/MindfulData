@@ -1,6 +1,7 @@
 package DataStructure.Stack
 
 import LinkedList
+import example
 
 
 /*--------------Stack Data Structures--------------*/
@@ -15,37 +16,38 @@ import LinkedList
         * Memory allocation uses stacks at the architectural level. Memory for local variables is also managed using a stack.
         * Search and conquer algorithms, such as finding a path out of a maze, use stacks to facilitate backtracking.*/
 
+/*--------------------------------------------Key points--------------------------------------------
+   *   Despite its simplicity, the stack is a key data structure for many problems.
+   *   The only two essential operations for the stack are the push method for adding elements and the pop method for removing elements.*/
     fun main(){
 
 
-        /*---------------Simple use of stack---------------
-        val stack = Stack<Int>().apply {
-            push(1)
-            push(2)
-            push(3)
-            push(4)
+        "Simple use of stack" example {
+            val stack = Stack<Int>().apply {
+                push(1)
+                push(2)
+                push(3)
+                push(4)
+            }
+            print(stack)
+            val poppedElement = stack.pop()
+            if (poppedElement != null) {
+                println("Popped: $poppedElement")
+            }
+            print(stack)
         }
-        print(stack)
-        val poppedElement = stack.pop()
-        if (poppedElement != null) {
-            println("Popped: $poppedElement")
+
+
+
+
+        "initializing a stack from a list" example{
+        /*This code creates a stack of strings and pops the top element "D".
+        Notice that the Kotlin compiler can type infer the element type from the list, so you can use Stack instead of the more verbose Stack<String>.*/
+            val list = listOf("A", "B", "C", "D")
+            val stack = Stack.create(list)
+            print(stack)
+            println("Popped: ${stack.pop()}")
         }
-        print(stack)*/
-
-
-
-
-
-        /*---------------initializing a stack from a list---------------
-
-        This code creates a stack of strings and pops the top element "D".
-        Notice that the Kotlin compiler can type infer the element type from the list, so you can use Stack instead of the more verbose Stack<String>.
-
-
-        val list = listOf("A", "B", "C", "D")
-        val stack = Stack.create(list)
-        print(stack)
-        println("Popped: ${stack.pop()}")*/
 
 
 
@@ -53,13 +55,13 @@ import LinkedList
 
 
 
-        /*---------------initializing a stack from an array literal---------------
-        This creates a stack of Doubles and pops the top value 4.0.
-        Again, type inference saves you from having to specify the generic type argument of the stackOf function call.
-
-        val stack = stackOf(1.0, 2.0, 3.0, 4.0)
-        print(stack)
-        println("Popped: ${stack.pop()}")*/
+        "initializing a stack from an array literal" example{
+        /*This creates a stack of Doubles and pops the top value 4.0.
+        Again, type inference saves you from having to specify the generic type argument of the stackOf function call.*/
+            val stack = stackOf(1.0, 2.0, 3.0, 4.0)
+            print(stack)
+            println("Popped: ${stack.pop()}")
+        }
 
 
         /*Stacks are crucial to problems that search trees and graphs.
@@ -72,47 +74,33 @@ import LinkedList
 
 
 
-        /*---------------Challenge 1: Reverse a LinkedList---------------
+        "Challenge 1: Reverse a LinkedList" example{
 
-        * The time complexity of pushing the nodes into the stack is O(n).
-        * The time complexity of popping the stack to print the values is also O(n).
-        * Overall, the time complexity of this algorithm is O(n).
-        * Since you’re allocating a container (the stack) inside the function, you also incur an O(n) space complexity cost.
-
-        val list = LinkedList<Int>()
-        list.add(1)
-        list.add(2)
-        list.add(3)
-        list.add(4)
-        list.add(5)
-        list.printInReverse()*/
-
-
-
-
-        /*Challenge 2: The parentheses validation
-        * Check for balanced parentheses. Given a string, check if there are ( and ) characters, and return true if the parentheses in the string are balanced.
-        * To check if there are balanced parentheses in the string, you need to go through each character of the string.
-        * When you encounter an opening parenthesis, you’ll push that into a stack. Vice versa, if you encounter a closing parenthesis, you should pop the stack.
-        var sting = "Hello()World("
-        println(sting.checkParentheses())
-        sting = "Hello()World()"
-        println(sting.checkParentheses())*/
+        /* The time complexity of pushing the nodes into the stack is O(n).
+         * The time complexity of popping the stack to print the values is also O(n).
+         * Overall, the time complexity of this algorithm is O(n).
+         * Since you’re allocating a container (the stack) inside the function, you also incur an O(n) space complexity cost.*/
+            val list = LinkedList<Int>()
+            list.add(1)
+            list.add(2)
+            list.add(3)
+            list.add(4)
+            list.add(5)
+            list.printInReverse()
+        }
 
 
 
 
-
-
-
-
-
-
-
-        /*--------------------------------------------Key points--------------------------------------------
-           *   Despite its simplicity, the stack is a key data structure for many problems.
-
-           *   The only two essential operations for the stack are the push method for adding elements and the pop method for removing elements.*/
+        "Challenge 2: The parentheses validation" example{
+        /* Check for balanced parentheses. Given a string, check if there are ( and ) characters, and return true if the parentheses in the string are balanced.
+         * To check if there are balanced parentheses in the string, you need to go through each character of the string.
+         * When you encounter an opening parenthesis, you’ll push that into a stack. Vice versa, if you encounter a closing parenthesis, you should pop the stack.*/
+            var sting = "Hello()World("
+            println(sting.checkParentheses())
+            sting = "Hello()World()"
+            println(sting.checkParentheses())
+        }
 
     }
 

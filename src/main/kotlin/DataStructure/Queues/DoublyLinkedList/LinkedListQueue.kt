@@ -8,10 +8,10 @@ import LinkedList
    A doubly linked list is simply a linked list in which nodes also contain a reference to the previous node.*/
 
 
-/* One of the main problems with ArrayListQueue is that dequeuing an item takes linear time.
+/* One of the DataStructure.LinkedList.main problems with ArrayListQueue is that dequeuing an item takes linear time.
   *  With the linked list implementation, you reduced it to a constant operation, O(1).
   *  All you needed to do was update the node’s previous and next pointers.
-  *  The main weakness with LinkedListQueue is not apparent from the table.
+  *  The DataStructure.LinkedList.main weakness with LinkedListQueue is not apparent from the table.
   *  Despite O(1) performance, it suffers from high overhead.
   *  Each element has to have extra storage for the forward and back reference.
   *  Moreover, every time you create a new element, it requires a relatively expensive dynamic allocation.

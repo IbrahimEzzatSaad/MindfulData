@@ -10,7 +10,7 @@ import kotlin.math.max
    tree from scratch.
 
    * A balanced tree is the key to optimizing the performance of the binary search tree.
-    There are three main states of balance. You’ll look at each one.
+    There are three DataStructure.LinkedList.main states of balance. You’ll look at each one.
 
     * 1-Perfect balance: The ideal form of a binary search tree is the perfectly balanced state. In technical
     terms, this means every level of the tree is filled with nodes from top to bottom.

@@ -1,30 +1,34 @@
 package DataStructure.Heap
 
+import example
+
 fun main(){
 
-    /*this code in order to create a max-heap of Comparable objects represented by Int values.
-    val array = arrayListOf(1, 12, 3, 4, 1, 6, 8, 7) // 1-create an ArrayList of Ints
-    val priorityQueue = ComparableHeapImpl.create(array) // 2-using the array in order to create a ComparableHeapImpl
-    while (!priorityQueue.isEmpty) { // 3-remove and print the max value until the Heap is empty
-        println(priorityQueue.remove())
-    }*/
-
-
-
-
-
-
-    /*create a min-heap
-    val array = arrayListOf(1, 12, 3, 4, 1, 6, 8, 7) // 1-create an ArrayList of Ints
-    val inverseComparator = object : Comparator<Int> { // 2-create an implementation of the Comparator<Int> which implements the inverse order for Int
-        override fun compare(o1: Int, o2: Int): Int =
-            o2.compareTo(o1)
+    "Max-Heap" example{
+    //this code in order to create a max-heap of Comparable objects represented by Int values.
+        val array = arrayListOf(1, 12, 3, 4, 1, 6, 8, 7) // 1-create an ArrayList of Ints
+        val priorityQueue = ComparableHeapImpl.create(array) // 2-using the array in order to create a ComparableHeapImpl
+        while (!priorityQueue.isEmpty) { // 3-remove and print the max value until the Heap is empty
+            println(priorityQueue.remove())
+        }
     }
-    val minHeap = ComparatorHeapImpl.create(array,
-        inverseComparator) // 3-using the array and the comparator in order to create a ComparatorHeapImpl
-    while (!minHeap.isEmpty) { // 4-remove and print the value with highest priority (whose value this time is the lowest) until the Heap is empty
-        println(minHeap.remove())
-    }*/
+
+
+
+
+
+    "create a min-heap" example{
+        val array = arrayListOf(1, 12, 3, 4, 1, 6, 8, 7) // 1-create an ArrayList of Ints
+        val inverseComparator = object : Comparator<Int> { // 2-create an implementation of the Comparator<Int> which implements the inverse order for Int
+            override fun compare(o1: Int, o2: Int): Int =
+                o2.compareTo(o1)
+        }
+        val minHeap = ComparatorHeapImpl.create(array,
+            inverseComparator) // 3-using the array and the comparator in order to create a ComparatorHeapImpl
+        while (!minHeap.isEmpty) { // 4-remove and print the value with highest priority (whose value this time is the lowest) until the Heap is empty
+            println(minHeap.remove())
+        }
+    }
 
 }
 

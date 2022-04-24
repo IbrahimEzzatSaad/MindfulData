@@ -3,7 +3,7 @@ package DataStructure.Stack
 import LinkedList
 
 /*--------------Stack operations--------------*/
-/*Stacks are useful, and also exceedingly simple. The main goal of building a stack is to enforce how you access your data.
+/*Stacks are useful, and also exceedingly simple. The DataStructure.LinkedList.main goal of building a stack is to enforce how you access your data.
 
     There are only two essential operations for a stack:
 
