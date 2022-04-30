@@ -25,7 +25,12 @@ queue is built on top of a heap and insertion takes O(log E).
 The worst-case time complexity of Prim’s algorithm is O(E log E).
 This is because, each time you dequeue the smallest edge from the priority queue, you have to
 traverse all the edges of the destination vertex ( O(E) ) and insert the edge into the
-priority queue ( O(logE) ).*/
+priority queue ( O(logE) ).
+
+--------------------Key Points-------------------
+• You can leverage three different data structures: Priority queue, set, and adjacency lists to construct Prim's algorithm.
+• Prim's algorithm is a greedy algorithm that constructs a minimum spanning tree.
+• A spanning tree is a subgraph of an undirected graph that contains all the vertices with the fewest number of edges.*/
 object Prim {
 
   /*Finding edges
