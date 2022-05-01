@@ -1,12 +1,12 @@
-package Algorithms.On2SearchAlgorithms
+package Algorithms.On2Sorting
 
-import Algorithms.On2SearchAlgorithms.bubblesort.bubbleSort
-import Algorithms.On2SearchAlgorithms.challenges.biggestDuplicate
-import Algorithms.On2SearchAlgorithms.challenges.rev
-import Algorithms.On2SearchAlgorithms.challenges.rightAlign
+import Algorithms.On2Sorting.bubblesort.bubbleSort
+import Algorithms.On2Sorting.challenges.biggestDuplicate
+import Algorithms.On2Sorting.challenges.rev
+import Algorithms.On2Sorting.challenges.rightAlign
 import example
-import Algorithms.On2SearchAlgorithms.insertionsort.insertionSort
-import Algorithms.On2SearchAlgorithms.selectionsort.selectionSort
+import Algorithms.On2Sorting.insertionsort.insertionSort
+import Algorithms.On2Sorting.selectionsort.selectionSort
 
 
 /*---------------------Key Points--------------------

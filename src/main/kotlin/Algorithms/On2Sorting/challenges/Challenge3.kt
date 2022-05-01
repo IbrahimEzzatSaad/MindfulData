@@ -1,4 +1,4 @@
-package Algorithms.On2SearchAlgorithms.challenges
+package Algorithms.On2Sorting.challenges
 
 import swapAt
 

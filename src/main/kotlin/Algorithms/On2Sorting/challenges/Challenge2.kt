@@ -1,6 +1,6 @@
-package Algorithms.On2SearchAlgorithms.challenges
+package Algorithms.On2Sorting.challenges
 
-import Algorithms.On2SearchAlgorithms.selectionsort.selectionSort
+import Algorithms.On2Sorting.selectionsort.selectionSort
 
 /*-----------Challenge 2: Duplicate finder----------------
 * Given a list of Comparable elements, return the largest element that’s a duplicate in the list.

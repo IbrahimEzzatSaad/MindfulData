@@ -1,4 +1,4 @@
-package Algorithms.On2SearchAlgorithms.insertionsort
+package Algorithms.On2Sorting.insertionsort
 
 import swapAt
 

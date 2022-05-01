@@ -1,4 +1,4 @@
-package Algorithms.On2SearchAlgorithms.bubblesort
+package Algorithms.On2Sorting.bubblesort
 
 import swapAt
 
