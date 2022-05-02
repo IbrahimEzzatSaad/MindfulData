@@ -13,7 +13,7 @@
   <p align="center">
     Data Strcuture and Algorithms Repo
     <br />
-    <a href="https://github.com/IbrahimEzzatSaad/MindfulData/tree/master/src/main/kotlin"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/IbrahimEzzatSaad/MindfulData/tree/master/src/main/kotlin"><strong>Explore the code »</strong></a>
     <br />
     <br />
 </div>
@@ -97,7 +97,7 @@ I will also include some flashcards in order for you to memorize the important i
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [Ibrahim Ezzat](https://www.linkedin.com/in/ibrahim-ezzat-895a50185/) - hemaezzat2715@gmail.com
+Linkedin/Email - [Ibrahim Ezzat](https://www.linkedin.com/in/ibrahim-ezzat-895a50185/) - hemaezzat2715@gmail.com
 
 Project Link: [https://github.com/IbrahimEzzatSaad/MindfulData](https://github.com/IbrahimEzzatSaad/MindfulData)
 
