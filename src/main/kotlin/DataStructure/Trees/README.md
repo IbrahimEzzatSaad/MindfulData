@@ -89,11 +89,13 @@ Remember that our goal is to visit each node, so we need to visit all the nodes 
 Depth-first traversal starts at the root node and explores the tree as far as possible along each branch before reaching a leaf and then backtracking.
 
 **Level-order traversal**
-![enter image description here](https://miro.medium.com/max/500/1*2NIfAdSadsdK2rP015f6Xg.gif)
+
+![enter image description here](https://miro.medium.com/max/500/1*2NIfAdSadsdK2rP015f6Xg.gif)\
 Level-order traversal is a technique that visits each node of the tree based on the depth of the nodes. Starting at the root, every node on a level is visited before going to a lower level.
 
 **In-order traversal**
-![enter image description here](https://miro.medium.com/max/500/1*bxQlukgMC9cGv_MFUllX2Q.gif)
+
+![enter image description here](https://miro.medium.com/max/500/1*bxQlukgMC9cGv_MFUllX2Q.gif)\
 In-order traversal visits the nodes of a binary tree in the following order, starting 
 from the root node:
 •  If the current node has a left child, recursively visit this child first.
@@ -102,14 +104,16 @@ from the root node:
 
 
 **Pre-order traversal** 
-![enter image description here](https://miro.medium.com/max/500/1*UGoV21qO6N8JED-ozsbXWw.gif)
+
+![enter image description here](https://miro.medium.com/max/500/1*UGoV21qO6N8JED-ozsbXWw.gif)\
 visits the nodes of a binary tree in the following order:
 •  Visits the current node first.
 •  Recursively visits the left and right child.
 
 
 **Post-order traversal**
-![enter image description here](https://miro.medium.com/max/500/1*UGrzA4qtLCaaCiNAKZyj_w.gif)
+
+![enter image description here](https://miro.medium.com/max/500/1*UGrzA4qtLCaaCiNAKZyj_w.gif)\
 Post-order traversal always visits the nodes of a binary tree in the following order:
 •  Recursively visits the left and right child.
 •  Only visits the current node after the left and right child have been visited recursively.
