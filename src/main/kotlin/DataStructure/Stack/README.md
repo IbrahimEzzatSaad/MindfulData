@@ -1,14 +1,15 @@
 
 # What is Stack??
-Stacks are everywhere. Some common examples of things you might stack:
-•  Pancakes.
-•  Books.
-•  Paper.
-•  Cash, especially cash. :]
+Stacks are everywhere. Some common examples of things you might stack:\
+•  Pancakes.\
+•  Books.\
+•  Paper.\
+•  Cash, especially cash. :]\
 The stack data structure is identical, in concept, to a physical stack of objects. 
 
 When you add an item to a stack, you place it on top of the stack. When you remove an item from a stack, you always remove the top-most item.
-![Cattie!](https://media1.giphy.com/media/aOqVDcqUQt1BK/200.gif)
+
+![Cattie!](https://media1.giphy.com/media/aOqVDcqUQt1BK/200.gif)\
 A stack is a linear data structure that follows the principle of  **Last In First Out (LIFO)**. This means the last element inserted inside the stack is removed first.
 
 You can think of the stack data structure as the pile of plates on top of another.
