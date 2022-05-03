@@ -1,7 +1,7 @@
 
 # What is Trees??????
 Okay... we have a lot to talk about.. first things first..
-![enter image description here](https://i.pinimg.com/originals/15/0c/ba/150cba925e4608c4c04bed581a938fad.jpg)\
+![enter image description here](https://img.devrant.com/devrant/rant/r_242780_fnKsw.jpg)\
 You’ll look at the most common tree types and see how they can be 
 used to solve specific computational problems.
 The tree structures you’ll learn about in this section include:
