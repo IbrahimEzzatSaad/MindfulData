@@ -42,7 +42,7 @@ The implementation for this data strcuture  you will find in this package and I 
 
 ## 📒 References
 
-[Programiz - LinkedList](https://www.programiz.com/dsa/linked-list)
-[GeeksForGeeks - LinkedList](https://www.geeksforgeeks.org/data-structures/linked-list/)
-[Stackabuse- Interview Questions LinkedList](https://stackabuse.com/linked-list-programming-interview-questions/)
-[GeeksForGeeks - Advantages and Disadvantages of LinkedList](https://www.geeksforgeeks.org/advantages-and-disadvantages-of-linked-list/)
+[Programiz - LinkedList](https://www.programiz.com/dsa/linked-list)\
+[GeeksForGeeks - LinkedList](https://www.geeksforgeeks.org/data-structures/linked-list/)\
+[Stackabuse- Interview Questions LinkedList](https://stackabuse.com/linked-list-programming-interview-questions/)\
+[GeeksForGeeks - Advantages and Disadvantages of LinkedList](https://www.geeksforgeeks.org/advantages-and-disadvantages-of-linked-list/)\
