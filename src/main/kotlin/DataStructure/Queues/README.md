@@ -2,7 +2,7 @@
 # What is Queues??
 We’re all familiar with waiting in line. Whether you’re in line to buy tickets to your favorite movie or waiting for a printer to print a file, these real-life scenarios mimic the queue data structure.
 
-![Queues](https://camo.githubusercontent.com/46ebac23737eb3d50697777449d714468a10757c47e5c7578c2df3c1cf205ec6/687474703a2f2f692e67697068792e636f6d2f3130306d684554714b594a4e66322e676966)
+![Queues](https://camo.githubusercontent.com/46ebac23737eb3d50697777449d714468a10757c47e5c7578c2df3c1cf205ec6/687474703a2f2f692e67697068792e636f6d2f3130306d684554714b594a4e66322e676966)\
 Queues use FIFO or first in, first out ordering, meaning the first element that was added will always be the first one removed. Queues are handy when you need to maintain the order of your elements to process later.
 
 In programming terms, putting items in the queue is called  **enqueue**, and removing items from the queue is called  **dequeue**.
