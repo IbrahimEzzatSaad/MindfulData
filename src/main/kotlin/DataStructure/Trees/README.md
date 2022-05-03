@@ -4,7 +4,7 @@ Okay... we have a lot to talk about.. first things first..
 ![enter image description here](https://img.devrant.com/devrant/rant/r_242780_fnKsw.jpg)\
 You’ll look at the most common tree types and see how they can be 
 used to solve specific computational problems.
-The tree structures you’ll learn about in this section include:
+The tree structures you’ll learn about in this section include:\
 •  [Trees](https://www.programiz.com/dsa/trees): The tree is a data structure of profound importance. It’s used to tackle many recurring challenges in software development such as representing hierarchical relationships, managing sorted data and facilitating fast lookup operations. There are many types of trees, and they come in various shapes and sizes.
 
 •  [Binary Trees](https://www.programiz.com/dsa/binary-tree): You looked at a basic tree where each node can have many children. A binary tree is a tree where each node has at most two children, often referred to as the left and right children. Binary trees serve as the basis for many tree structures and algorithms. 
