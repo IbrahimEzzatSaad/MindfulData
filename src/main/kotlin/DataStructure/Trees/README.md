@@ -35,12 +35,14 @@ There are many terms associated with trees, so it makes sense to get familiar wi
 few of them before starting.
 
 **Node**
+
 ![enter image description here](https://assets.alexandria.raywenderlich.com/books/dsk/images/393ecfcdac5f9391f80989ff5067302f000602bb6edaa591cdf72ff1c656cbc1/original.png)
 Like the linked list, trees are made up of nodes.
 Each node encapsulates some data and keeps track of its children.
 
 
 **Parent and child**
+
 ![enter image description here](https://assets.alexandria.raywenderlich.com/books/dsk/images/1cc8da97031a6fc73816a9589ddcb70f57c1d14062a25c3e6fe58f4def9780f8/original.png)
 Trees are viewed starting from the top and branching toward the bottom — just like a 
 real tree, only upside-down.
@@ -52,12 +54,14 @@ The nodes directly below and connected to the parent node are known as child nod
 
 
 **Root**
+
 The topmost node in the tree is called the root of the tree. It’s the only node that has no parent:
 ![enter image description here](https://assets.alexandria.raywenderlich.com/books/dsk/images/a3b9305df9c4ca27bc701cd76a603103183bd16a59cce08dc85d14f1aa90c3f7/original.png)
 
 
 
 **Leaf**
+
 A node that has no children is called a leaf:
 ![enter image description here](https://assets.alexandria.raywenderlich.com/books/dsk/images/6264cce49aa7a360df3165dc06a3bc7dce38bb53d6b5a5069a2958cf3d26ecd3/original.png)
 
@@ -221,5 +225,5 @@ longer balanced.
 many different values. For example, “car”, “carbs”, and “care” can share the first 
 three letters of the word.
 ## 📒 References 
-[Programiz- Trees](https://www.programiz.com/dsa/trees)
+[Programiz- Trees](https://www.programiz.com/dsa/trees)\
 [TowardsDataScience - types of traversals](https://towardsdatascience.com/4-types-of-tree-traversal-algorithms-d56328450846)
