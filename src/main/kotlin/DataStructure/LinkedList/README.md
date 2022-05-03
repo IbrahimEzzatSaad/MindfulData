@@ -1,5 +1,5 @@
 
-## What is a LinkedList??
+### What is a LinkedList??
 I have thought about explaning it in real life example but I couldn't find better than this.
 ![enter image description here](https://mir-s3-cdn-cf.behance.net/project_modules/disp/0d8f8410905773.560ed8d7374db.gif)
 Did you ever saw how trains car connected? Each car holding the next one and there a Head of the train and there's a tail as well right? so when we add more cars to it we add from the tail and the new one becomes the new tail (last car)
