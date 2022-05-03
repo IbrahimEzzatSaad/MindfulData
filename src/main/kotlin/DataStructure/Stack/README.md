@@ -24,7 +24,7 @@ And, if you want the plate at the bottom, you must first remove all the plates o
 
 ## LIFO Principle of Stack
 In programming terms, putting an item on top of the stack is called **push** and removing an item is called **pop**.
-![Stack operations](https://cdn.programiz.com/sites/tutorial2program/files/stack.png)
+![Stack operations](https://cdn.programiz.com/sites/tutorial2program/files/stack.png)\
 In the above image, although item **3** was kept last, it was removed first. This is exactly how the **LIFO (Last In First Out) Principle** works.
 
 ## Basic Operations of Stack
