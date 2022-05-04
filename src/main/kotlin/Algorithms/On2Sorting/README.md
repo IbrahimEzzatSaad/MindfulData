@@ -45,7 +45,7 @@ insertion sort can vary.
 
 The more the data is already sorted, the less work it needs to do. Insertion sort has a best time complexity of O(n) if the data is already sorted.
 
-![enter image description here](https://images.velog.io/images/delmasong/post/9a836b65-dcf7-48d9-8d6c-0e6307704b43/insertionSort.gif)
+![enter image description here](https://www.arabicprogrammer.com/images/548/4d4a4ee96b360815ba654de710a7c7a4.gif)
 
 ## ⏲ Time Complexity
 ### Bubble Sort Complexity
