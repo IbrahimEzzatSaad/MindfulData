@@ -46,5 +46,5 @@ Composition over (implementation) inheritance.
 
 
 ## 📒 References 
-[Programiz - Priority Queue](https://www.programiz.com/dsa/priority-queue)
+[Programiz - Priority Queue](https://www.programiz.com/dsa/priority-queue)\
 [GeeksForGeeks - Priority Queue](https://www.geeksforgeeks.org/priority-queue-set-1-introduction/)
