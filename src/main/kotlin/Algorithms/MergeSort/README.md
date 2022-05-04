@@ -1,6 +1,3 @@
-Merge Sort
-Merge Sort
-▲
 
 # What is Merge Sort???
 ![enter image description here](https://pics.me.me/thumb_0-bubble-sort-you-guys-always-act-like-youre-better-45912067.png)\
