@@ -12,8 +12,6 @@ Kotlin collections that can do this include the Array and the ArrayList.
 
 ![enter image description here](https://c.tenor.com/Jl0YrqxnHmAAAAAd/binary-search-sequence-search.gif)
 
-## ⏲ Queue Time Complexity
-
 
 ## Pros & Cons
 **Advantages**:
