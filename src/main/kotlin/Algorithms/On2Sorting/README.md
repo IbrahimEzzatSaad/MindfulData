@@ -44,6 +44,7 @@ insertion sort has an average time complexity of O(n²), but the performance of
 insertion sort can vary. 
 
 The more the data is already sorted, the less work it needs to do. Insertion sort has a best time complexity of O(n) if the data is already sorted.
+
 ![enter image description here](https://images.velog.io/images/delmasong/post/9a836b65-dcf7-48d9-8d6c-0e6307704b43/insertionSort.gif)
 
 ## ⏲ Time Complexity
