@@ -10,6 +10,8 @@ In this chapter, you’ll look at the following sorting algorithms:
 All of these are comparison-based sorting methods. In other words, they rely on a comparison method, such as the less than operator, to order elements. You measure a sorting technique’s general performance by counting the number of times this comparison gets called.
 ![enter image description here](https://qph.fs.quoracdn.net/main-qimg-58dc29bc4966efe3ac20c6ae66088a12)
 
+You will see the merge sort and heap and others in the next packages.
+
 ## Bubble Sort
 One of the simplest sorts is the bubble sort. The bubble sort repeatedly compares adjacent values and swaps them, if needed, to perform the sort. The larger values in the set will, therefore, bubble up to the end of the collection.
 
