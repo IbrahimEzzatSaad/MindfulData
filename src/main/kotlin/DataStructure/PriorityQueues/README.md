@@ -34,7 +34,7 @@ Some useful applications of a priority queue include:
 - Huffman coding: Useful for building a compression tree. A min-priority queue is used to repeatedly find two nodes with the smallest frequency that don’t yet have a parent node.
 Priority queues have many more applications and practical uses; the list above represents only a handful.
 
-## ⏲ Queue Time Complexity
+## ⏲ Priority Queue Time Complexity
 ![enter image description here](https://i.imgur.com/UwFSjY0.png)
 
 ## Key points
