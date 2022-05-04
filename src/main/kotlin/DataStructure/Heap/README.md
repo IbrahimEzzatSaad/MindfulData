@@ -5,11 +5,11 @@ Heap data structure is  [a complete binary tree](https://www.programiz.com/dsa/c
 
 -   always greater than its child node/s and the key of the root node is the largest among all other nodes. This property is also called  **max heap property**.
 -   always smaller than the child node/s and the key of the root node is the smallest among all other nodes. This property is also called  **min heap property**.
-![Max Heap](https://cdn.programiz.com/cdn/farfuture/OTLuUbQZmYPjHkXgmCfzHr8nNCkoi2Je9y9ZzIl1vuI/mtime:1582112622/sites/tutorial2program/files/maxheap_1.png)\
+![Max Heap](https://cdn.programiz.com/cdn/farfuture/OTLuUbQZmYPjHkXgmCfzHr8nNCkoi2Je9y9ZzIl1vuI/mtime:1582112622/sites/tutorial2program/files/maxheap_1.png)
 
 > Max Heap
 
-![Min Heap](https://cdn.programiz.com/cdn/farfuture/tVzREVaraXbOKPPJtMbcQ10N2QkxiAJcNOIfxPYlVR0/mtime:1582112622/sites/tutorial2program/files/minheap_0.png)\
+![Min Heap](https://cdn.programiz.com/cdn/farfuture/tVzREVaraXbOKPPJtMbcQ10N2QkxiAJcNOIfxPYlVR0/mtime:1582112622/sites/tutorial2program/files/minheap_0.png)
 > Min Heap
 
 
