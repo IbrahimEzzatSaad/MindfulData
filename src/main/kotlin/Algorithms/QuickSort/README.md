@@ -1,6 +1,6 @@
 
 # What is QuickSort???
-![enter image description here](https://i.imgur.com/LmrZQOI.png)
+![enter image description here](https://i.imgur.com/LmrZQOI.png)\
 Quicksort is  [a sorting algorithm](https://www.programiz.com/dsa/sorting-algorithm)  based on the  **divide and conquer approach**  where
 
 1.  An array is divided into subarrays by selecting a  **pivot element**  (element selected from the array).  
