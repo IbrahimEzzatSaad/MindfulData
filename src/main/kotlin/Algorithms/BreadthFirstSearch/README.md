@@ -21,6 +21,7 @@ The algorithm works as follows:
 4.  Keep repeating steps 2 and 3 until the queue is empty.
 
 The graph might have two different disconnected parts so to make sure that we cover every vertex, we can also run the BFS algorithm on every node
+
 ![enter image description here](https://upload.wikimedia.org/wikipedia/commons/5/5d/Breadth-First-Search-Algorithm.gif?20100504223639)
 
 ## ⏲ Time Complexity
@@ -37,7 +38,7 @@ The space complexity of BFS is O(V) since you have to store the vertices in thre
 - BFS explores all of the current vertex’s neighbors before traversing the next level of vertices.
 - It’s generally good to use this algorithm when your graph structure has a lot of neighboring vertices or when you need to find out every possible outcome.
 - The queue data structure is used to prioritize traversing a vertex’s neighboring edges before diving down a level deeper.
-- 
+
 ## 📒 References 
 [Programiz - Breadth First Search](https://www.programiz.com/dsa/graph-bfs)\
 [RayWenderLich - Breadth first search](https://www.raywenderlich.com/books/data-structures-algorithms-in-kotlin/v1.0/chapters/20-breadth-first-search)
