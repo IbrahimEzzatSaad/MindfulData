@@ -1,10 +1,11 @@
+
 <div id="top"></div>
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://github.com/IbrahimEzzatSaad/MindfulData/blob/master/MindfulGif.gif?raw=true" alt="Logo" width="100%" height="300" >
+    <img src="https://github.com/IbrahimEzzatSaad/MindfulData/blob/master/MindfulGif.gif?raw=true" alt="Logo" width="100%" height="400" >
   </a>
 
 <h3 align="center">Mindful Data</h3>
@@ -119,3 +120,16 @@ There gonna be more sources for information in each package with links provided 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
+
+## Conclusion 
+That might seems overwhelming with all that Data strcutures and Algorithms and all its key points and when to use each one.
+
+The best solution to wrap all that is to memorize all that stuff with flashcards and also problem solve in order to be able to work with that stuff more in real life situations.
+
+I will leave some useful flashcards decks also a good books for interview questions that I think might be really helpful too.
+
+[BrainScape - DSA Deck - 408 Card](https://www.brainscape.com/packs/data-structures-and-algorithms-227907)\
+[Teivah - Repo for DSA](https://github.com/teivah/algodeck)\
+[Anki - Coding Interview: Data Structures and Algorithms - 95 Note](https://ankiweb.net/shared/info/2011444025)\
+[Cracking Coding Interview Programming Questions book](https://www.amazon.com/Cracking-Coding-Interview-Programming-Questions/dp/0984782850)\
+[StudySmarter - DSA - 188 Card ](https://app.studysmarter.de/studysets/4235357?ref=R1EnvGZ8KJHcprlIpwBLGC5x0SHWimMO)
