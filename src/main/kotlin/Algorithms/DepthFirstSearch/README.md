@@ -1,6 +1,6 @@
 
 # What is DepthFirstSearch???
-![enter image description here](https://www.banterly.net/content/images/2020/02/meme3.jpg)
+![enter image description here](https://www.banterly.net/content/images/2020/02/meme3.jpg)\
 Depth first Search or Depth first traversal is a recursive algorithm for searching all the vertices of a graph or tree data structure. Traversal means visiting all the nodes of a  [graph](https://www.programiz.com/dsa/graph).
 
 A standard DFS implementation puts each vertex of the graph into one of two categories:
