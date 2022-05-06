@@ -54,5 +54,5 @@ If your graph has lots of edges, it’s considered a dense graph, and an adjacen
 - Undirected graphs have edges that point both ways.
 - Adjacency list stores a list of outgoing edges for every vertex.
 ## 📒 References 
-[Programiz - graph](https://www.programiz.com/dsa/graph)
+[Programiz - graph](https://www.programiz.com/dsa/graph)\
 [RayWenderLich - Graphs](https://www.raywenderlich.com/books/data-structures-algorithms-in-kotlin/v1.0/chapters/19-graphs#toc-chapter-022-anchor-009)
