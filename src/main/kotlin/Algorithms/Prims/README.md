@@ -19,6 +19,7 @@ The steps for implementing Prim's algorithm are as follows:
 2.  Find all the edges that connect the tree to new vertices, find the minimum and add it to the tree
 3.  Keep repeating step 2 until we get a minimum spanning tree
 
+![enter image description here](https://inotgo.com/imagesLocal/202109/25/20210925212505140x_2.gif)
 ### Example of Prim's algorithm
 
 ![Start with a weighted graph](https://cdn.programiz.com/sites/tutorial2program/files/pa_1.png "Prim's Algorithm Steps")
