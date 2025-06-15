@@ -95,18 +95,6 @@ I will also include some flashcards in order for you to memorize the important i
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
-<!-- CONTACT -->
-## Contact
-
-Linkedin/Email - [Ibrahim Ezzat](https://www.linkedin.com/in/ibrahim-ezzat-895a50185/) - hemaezzat2715@gmail.com
-
-Project Link: [https://github.com/IbrahimEzzatSaad/MindfulData](https://github.com/IbrahimEzzatSaad/MindfulData)
-
-Linkedin Profile isn't fully prepared yet🙄
-<p align="right">(<a href="#top">back to top</a>)</p>
-
-
-
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
 
